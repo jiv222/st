@@ -19,7 +19,7 @@ Since my current build supports emoji's, it is required replace libXft with the 
 
 [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/) is available in the AUR.
 
-Once replacing the standard libXft, you can build and install St by cloning this repository (insuring you are on the current_config branch).
+After replacing the standard libXft, you can build and install St by cloning this repository (insuring you are on the current_config branch).
 
 Finally, run:
 ```shell
@@ -42,6 +42,6 @@ Cherry is a bitmap font. If there are any issues with displaying this font, make
 
 **Colors:**
 
-My colorschemes are available in (colors)[./colors].
+My colorschemes are available in [colors](./colors).
 
 The current build also supports reading xresources. This is not necessary to replicate my build, but provides added convenience.
