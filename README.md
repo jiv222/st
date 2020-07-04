@@ -8,10 +8,10 @@ Each branch of this repository contains a feature implemented on top of the base
 All desired features are then merged into the ***current_config*** branch. 
 The current build contains patches from all other branches, other than the alpha patch.
 
-## Patches:
+## Patches
 All patches that I have applied are located in [patches](./patches).
 
-## Fonts and colors:
+## Fonts and colors
 **Fonts:**
 
 + [Cherry](https://github.com/turquoise-hexagon/cherry)
@@ -19,7 +19,7 @@ All patches that I have applied are located in [patches](./patches).
 
 Cherry is a bitmap font. If there are any issues with displaying this font, make sure the file `/etc/fonts/conf.d/70-no-bitmaps.conf` does not exist. 
 
-See [below](#use-my-build:) for notes about making sure JoyPixels, and emoji fonts in general, work properly.
+See [below](#use-my-build) for notes about making sure JoyPixels, and emoji fonts in general, work properly.
 
 **Colors:**
 
@@ -38,7 +38,7 @@ The current build also supports reading Xresources. This is not necessary to rep
 + **Copy text:** `alt-c` 
 + **Paste text:** `alt-v` or `shift-insert`
 
-## Use my build:
+## Use my build
 Since my current build supports emoji's, it is required replace libXft with the patched version until the fix gets implemented in the official build.  
 
 [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/) is available in the AUR.
