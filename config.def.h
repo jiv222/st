@@ -1,10 +1,13 @@
 /*
  * appearance
  */
-static char *font = "Input Mono Condensed:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
+/* static char *font = "Input Mono Condensed:pixelsize=16:antialias=true:autohint=true"; */
+static const char *font = "cherry:style=Regular:size=13:antialias=true:autohint=true";
+static char *font2[] = { 
+    "JoyPixels:pixelsize=12:antialias=true:autohint=true",
+};
 
-static int borderpx = 30;
+static int borderpx = 25;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -103,45 +106,7 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* Terminal colors (16 first used in escape sequence) */
-static const char *colorname[] = {
-	/* 8 normal colors */
-	"#3d3d3d",
-	"#6673bf",
-	"#3ea290",
-	"#b0ead9",
-	"#31658c",
-	"#596196",
-	"#8292b2",
-	"#c8cacc",
-
-	/* 8 bright colors */
-	"#4d4d4d",
-	"#899aff",
-	"#52ad91",
-	"#98c9bb",
-	"#477ab3",
-	"#7882bf",
-	"#95a7cc",
-	"#edeff2",
-
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#101010",      /* 256 -> bg */
-	"#ffffff",      /* 257 -> fg */
-	"#b0ead9",        /* 258 -> cursor */
-};
-
-
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 258;
-static unsigned int defaultrcs = 0;
+#include "/home/four/.suckless/st/colors/st-evangelion-red.h"
 
 /*
  * Default style of cursor
@@ -259,8 +224,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Prior,       zoom,           {.f = +1} },
 	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
 	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
-	{ TERMMOD,              XK_c,           clipcopy,       {.i =  0} },
-	{ TERMMOD,              XK_v,           clippaste,      {.i =  0} },
+	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
+	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_p,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
