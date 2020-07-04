@@ -43,7 +43,7 @@ Since my current build supports emoji's, it is required replace libXft with the 
 
 [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/) is available in the AUR.
 
-After replacing the standard libXft, you can build and install St by cloning this repository (insuring you are on the current_config branch).
+After replacing the standard libXft, you can build and install St by cloning this repository (insuring you are on the *current_config* branch).
 
 Finally, run:
 ```shell
