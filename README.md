@@ -33,14 +33,14 @@ After making changes, be sure to include the clean target when rebuilding St:
 
 ##### Fonts and colors: #####
 
-***Fonts:***
+*Fonts:*
 
 * [cherry](https://github.com/turquoise-hexagon/cherry)
 * [JoyPixels](https://www.joypixels.com)
 
 Cherry is a bitmap font. If there are any issues with displaying this font, make sure the file `/etc/fonts/conf.d/70-no-bitmaps.conf` does not exist. 
 
-***Colors:***
+*Colors:*
 
 My colorschemes are available in (colors)[./colors].
 
