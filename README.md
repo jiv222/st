@@ -1,6 +1,6 @@
 # Simple Terminal
 
-![](/rice.png)
+![](/st.png)
 
 ##### This is my personal build of [Suckless's](https://st.suckless.org) Simple Terminal. 
 
