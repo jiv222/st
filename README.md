@@ -9,11 +9,11 @@ Each branch of this repository contains a feature implemented on top of the base
 All desired features are then merged into the ***current_config*** branch. 
 The current build contains patches from all other branches, other than the alpha patch.
 
-#### Patches: ####
+## Patches: ##
 
 All patches that I have applied are located in [patches](./patches).
 
-### Use my build: ###
+## Use my build: ##
 
 Since my current build supports emoji's, it is required replace libXft with the patched version until the fix gets implemented in the official build.  
 
