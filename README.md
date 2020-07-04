@@ -4,8 +4,6 @@
 
 ##### This is my personal build of [Suckless's](https://st.suckless.org) Simple Terminal. 
 
-This is my personal patched build of St.
-
 Each branch of this repository contains a feature implemented on top of the base build of St from Suckless.  
 
 All desired features are then merged into the ***current_config*** branch. 
