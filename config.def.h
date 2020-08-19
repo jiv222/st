@@ -2,7 +2,7 @@
  * appearance
  */
 /* static char *font = "Input Mono Condensed:pixelsize=16:antialias=true:autohint=true"; */
-static const char *font = "cherry:style=Regular:size=13:antialias=true:autohint=true";
+static const char *font = "lemon:size=14";
 static char *font2[] = { 
     "JoyPixels:pixelsize=12:antialias=true:autohint=true",
 };
@@ -104,7 +104,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 #include "/home/four/.suckless/st/colors/st-evangelion-red.h"
 
