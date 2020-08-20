@@ -2,7 +2,7 @@
  * appearance
  */
 /* static char *font = "Input Mono Condensed:pixelsize=16:antialias=true:autohint=true"; */
-static const char *font = "lemon:size=14";
+static const char *font = "cherry:size=12";
 static char *font2[] = { 
     "JoyPixels:pixelsize=12:antialias=true:autohint=true",
 };
